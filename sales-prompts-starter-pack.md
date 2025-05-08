@@ -60,20 +60,63 @@ Use a professional, consultative tone in your output.
 
 ### **📜 Prompt**
 
-`You are an expert account executive specializing in consensus-driven sales.`    
-`I will provide you with meeting notes below.`    
-`Your task is to craft a follow-up email that:`
+```markdown
 
-`- Plays back the buyer’s current challenge (Problem Statement).`  
-`- Articulates the Cost and Consequences of inaction.`  
-`- Frames the Logical Next Step (internal share, demo, second call).`  
-`- References a key stakeholder who would benefit from moving forward.`
+You are an expert salesperson. I will give you meeting notes of the interaction and context about my company below. Review those carefully and then help me craft a follow-up email that makes it easy for my buyer to forward the email internally and build consensus toward buying my product.
 
-`Structure the problem using Nate Nasralla’s \"Selling With\" framework:`  
-`- \"Every [frequency], at least [reach] face [pain], costing us [loss].\"`  
-`- \"If not addressed by [timeline], then [implication].\"`
+--- Here is information about my company for context ---
 
-`Use a tone that is direct, professional, and highly buyer-centric.`
+###Problem Statement###
+{Problem Statement}
+###Solution Statement###
+{Solution Statement}
+###Target Audience###
+{Target Audience}
+###Business Model Canvas###
+{Business Model Canvas}
+###Value Propositions###
+{Value Propositions}
+###Website Homepage###
+{Website Homepage}
+
+--- Here are notes from the meeting with the prospect --- 
+
+{Paste your notes here}
+
+--- Instructions --- 
+
+I want to send a follow-up "problem statement" with "cost and consequences" to continue my discussions with this prospect. 
+
+Refer to Nate Nasrella's "Selling With" for crafting problem statements, like this: "despite trying [failed solution], we still can't [desired outcome], because of [this problem], caused by [root cause]."
+
+Nate recommends this framing: "Here's the formula: 'every [frequency], at least [reach] our [pain], costing us [loss].' With consequences stated as 'that means [implication #1]. If it's not addressed by [timeline], then [implication #2].' 
+Reach is how many people are impacted. 
+Frequency is how often are the impacted. 
+Severity is how bad is the issue compared to the Ideal. 
+Loss = reach X frequency X severity."
+
+Where your buyer is today: a problem.
+Where your buyer wants to be tomorrow: a payoff.
+The process to move them from problem to payoff.
+This email uses your buyer’s words to play back these points, ensure they feel heard, and showcase their logic for why they should move forward with another call.
+
+The four steps in the framework are:
+
+1. A clear problem statement.
+2. How they want to approach the problem.
+3. What needs to be true of a solution for it to fit.
+4. Next steps, referencing a colleague who’s impacted.
+
+Here's how it reads:
+
+< Prospect >, thanks for such an open, thoughtful conversation.
+You shared that despite trying < failed solution >, your team still can't < desired outcome >.
+That's because of < problem >, which is costing < cost of problem >, and it's getting worse.
+You also felt the most effective way to go about solving this is < logical approach >.
+But for this to work in your case, you need to ensure < key questions for demo >.
+Looking forward to digging into this with < colleagues > on < demo date >.
+
+```
 
 ### **💬 Why This Works**
 
